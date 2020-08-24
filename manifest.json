@@ -1,0 +1,10 @@
+{
+  "name": "NCKU-Course-Filter",
+  "version": "1.0",
+  "description": "NCKU Course Filter",
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://course.ncku.edu.tw/index.php?c=qry11215&m=en_query*"]
+  }],
+  "manifest_version": 2
+}
